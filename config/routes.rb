@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get 'login' => 'static_pages#login'
   get 'weekly' => 'static_pages#weekly'
   get 'signup' => 'users#new'
+  resources :users
 
 end
