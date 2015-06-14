@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'static_pages/Announcements'
-  get  'static_pages/Events'
-  get  'static_pages/Login'
+  root 'static_pages#announcements'
+  get 'static_pages/login'
+
 end

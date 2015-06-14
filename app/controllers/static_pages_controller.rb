@@ -1,7 +1,7 @@
 class StaticPagesController < ApplicationController
-  def Announcements
+  def announcements
   end
 
-  def Login
+  def login
   end
 end
