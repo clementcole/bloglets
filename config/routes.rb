@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   root 'static_pages#announcements'
-  get 'static_pages/login'
+  get 'login' => 'static_pages#login'
+  get 'weekly' => 'static_pages#weekly'
+  get 'signup' => 'users#new'
 
 end
